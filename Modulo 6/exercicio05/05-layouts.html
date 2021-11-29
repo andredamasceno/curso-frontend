@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front End - Html</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="05-layouts.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="./06-formularios.html">Contato</a></li>
+				</ul>
+			</nav>
+			
+			<article>
+				
+				<h1>Titulo Artigo</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta justo mauris, nec lacinia libero tincidunt sed. Phasellus sed magna luctus, luctus nunc quis, sodales est. Suspendisse pretium quis est semper consequat. Nam vel feugiat neque. In sed tincidunt justo. Nulla auctor lectus enim, vel suscipit nisl scelerisque id. Curabitur et lorem eu erat pulvinar ultrices. Cras arcu nisi, volutpat ut viverra nec, molestie scelerisque massa. Vivamus elementum a nibh placerat porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sed lorem et massa faucibus cursus eu eu tellus. Praesent neque enim, volutpat in maximus id, consequat non erat.</p>
+
+				<p>Vestibulum suscipit maximus quam, nec iaculis leo finibus nec. Duis aliquet eleifend condimentum. Morbi faucibus ultricies pretium. Suspendisse et venenatis augue, id suscipit diam. Aliquam nunc lorem, feugiat non commodo vel, malesuada sed dui. Vestibulum nec felis at nisl consequat eleifend eu vitae augue. Pellentesque volutpat molestie mauris, a fermentum orci mollis quis. Duis molestie, sapien sit amet gravida cursus, urna tellus viverra lorem, sit amet fringilla risus nunc quis velit. Quisque mollis, ligula rutrum suscipit bibendum, purus urna tempor dui, et bibendum mi metus ut nulla. Etiam iaculis erat quis aliquam vestibulum. Fusce ut dui accumsan arcu condimentum feugiat. Nulla ornare quam eget sagittis posuere. Donec ac leo id ligula tempus tempor. In at dictum quam, id accumsan ipsum. Aenean posuere suscipit finibus. Maecenas vestibulum iaculis nunc, sit amet auctor massa sagittis eu.</p>
+
+				<p>Curabitur ac convallis arcu. Proin nec sagittis augue, eget vulputate magna. Nullam vestibulum tellus quis lacus vulputate euismod. Cras facilisis neque non lacus maximus, sed elementum arcu dapibus. Quisque vulputate, orci a commodo viverra, libero mi aliquet ligula, eget gravida velit justo eu ante. Donec ac orci sapien. Duis dolor augue, gravida a lectus placerat, tristique dapibus velit.</p>
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Andre</p>
+		</footer>
+	
+	</body>
+</html>

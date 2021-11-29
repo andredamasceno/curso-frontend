@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Andre Damasceno</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #000047;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 15%;
+			  background: #a0a0a0;
+			  padding: 20px;
+			  color: white;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #ffffff;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #a0a0a0;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			.image1 {
+				width:  200px;
+				border-radius: 40px;
+			}
+			.image2 {
+				width: 30px;
+			}
+			.image3 {
+				width: 30px;
+			}
+			.nome {
+				font-family: emoji;
+				font-size: xx-large;
+
+			}
+			.desenvolvido {
+				font-family: sans-serif;
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Projeto Modulo 4 - Front-end</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul>
+					<li><a href="01-introducao.html" target="_blank">Introdução</a></li>
+					<li><a href="02-listas-e-links.html" target="_blank">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html" target="_blank">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html" target="_blank">Tabelas</a></li>
+					<li><a href="05-layouts.html" target="_blank">Layouts</a></li>
+					<li><a href="06-formularios.html" target="_blank">Formulários</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/andre-damasceno-9138b81a/" target="_blank"><img src="./linkedinlogohtml.png" width="1" class="image2"></a></li>
+					<li><a href="https://www.instagram.com/damascenopilot/" target="_blank"><img src="./instagramlogo.png" class="image3"></a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<img width="200" src="./foto_andre.jpg" alt="Andre Damasceno" class="image1">
+				
+				<h2 class="nome">André Damasceno</h2>
+
+				<p>Piloto de Linha Aérea e Estudante de Programação @ <strong><a href="https://www.ebaconline.com.br" target="_blank">EBAC</a></strong> </p>
+				
+			
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p class="desenvolvido">Desenvolvido por Andre Damasceno - Powered by <em>HTML5</em> and <em>CSS</em></p>
+		</footer>
+		
+	</body>
+</html>

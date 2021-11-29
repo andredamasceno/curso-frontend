@@ -1,0 +1,42 @@
+header {
+	font-size: 2.2rem;
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Libre Baskerville';
+    background-color: rgb(0, 0, 60);
+    color: white;
+}
+
+section {
+	margin: 5%;
+	margin-left: 15rem;
+	float: left;
+}
+
+h2 {
+	margin: 1rem;
+	font-size: 2rem;
+}
+
+article {
+	margin: 5%;
+	margin-right: 15rem;
+
+}
+
+#andrefoto {
+	width: 17rem;
+	border-radius: 15%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20rem;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+	div.form {
+		float: left;
+	}
+}

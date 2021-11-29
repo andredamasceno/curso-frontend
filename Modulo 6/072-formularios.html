@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style2.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front End - HTML and CSS</h2>
+		</header>
+
+		<section>
+
+			<nav class="navegacao">
+				<ul>
+					<li><a href="./05-layouts.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="Contato">Contato</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<form method="post">
+					<div class="formulario">
+						<h2>Contato</h2>
+						<p>Preencha os campos abaixo</p>
+					</div>
+					<div class="formulario">
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+					
+					<div class="formulario">
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div class="formulario">
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui"></textarea>
+					</div>
+
+					<div class="formulario">
+						<p>
+							<label>Qual linguagem voce prefere?</label>
+							<input type="radio" name="linguagens"> HTML
+							<input type="radio" name="linguagens"> CSS
+							<input type="radio" name="linguagens"> Java Scrpit
+						</p>
+
+						<p>
+							<label>Quais linguagens voce sabe?</label>
+							<input type="checkbox" name="linguagens"> HTML
+							<input type="checkbox" name="linguagens"> CSS
+							<input type="checkbox" name="linguagens"> Java Scrpit
+						</p>
+
+					<div class="formulario">
+						<label>Qual a sua cor favorita?</label>
+							<select>
+							<option selected>Azul</option>
+							<option>Verde</option>
+							<option>Vermelho</option>
+						</select>
+					</div><br>
+					</div>
+
+					<div>
+						<input type="submit">
+					</div>
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Andre - <em>HTML5</em> and <em>CSS</em></p>
+		</footer>
+		
+	</body>
+</html>

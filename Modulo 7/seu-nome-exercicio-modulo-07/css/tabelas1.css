@@ -1,0 +1,49 @@
+
+
+table	{
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px;
+	margin-top: 5rem;
+	border-collapse: collapse;
+}
+
+thead > tr > td > {
+	text-align: center;
+}
+
+tbody > tr > td > {
+	text-align: center;
+}
+
+tbody {
+	text-align: center;
+}
+
+td {
+	padding: .9rem;
+	border: solid 1px;
+
+}
+
+th {
+	padding: .9rem;
+	border: solid 1px;
+}
+
+tfoot {
+	text-align: center;
+	background-color: rgb(197, 255, 255)
+}
+
+thead {
+	background-color: #00a0f6;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: rgb(197, 255, 255);
+}
+
+header{
+	text-align: center;
+}

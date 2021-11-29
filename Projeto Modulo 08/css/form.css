@@ -1,0 +1,119 @@
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+h1 {
+	font-size: 1.8em;
+	padding:  .5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+	letter-spacing: .2rem;
+    padding: .5rem;
+    padding-left: 0;
+}
+
+footer {
+	margin: 0;
+	padding-top: 15.4rem;
+	padding-bottom: .5rem;
+	text-align: center;
+	width: 100%;
+
+}
+
+li {
+	padding: .2rem;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 14, 42);
+}
+
+a:hover {
+	background-color: rgb(227, 255, 255);
+}
+
+header {
+	text-align: center;
+
+}
+
+h5 {
+	padding: 2rem;
+	padding-left: 0;
+	font-size: 1.2rem;
+}
+
+.titulo {
+	font-size: 4rem;
+	padding: 4rem;
+	background-color: rgb(0, 0, 60);
+	color: rgb(210, 210, 210);
+	font-family: 'Libre Baskerville';
+}
+
+.aulas {
+	text-align: left;
+	font-size: 1.2rem;
+	padding: 1rem;
+	padding-left: 0;
+}
+
+.linkedin {
+	width: 1.8rem;
+}
+
+.instagram {
+	width: 1.8rem;
+}
+
+label {
+	padding: 1rem;
+	padding-left: 0;
+	
+}
+
+.formulario, .formulario-cor, .submit {
+    padding: 2rem;
+
+}
+
+.formulario {
+	border-bottom: solid rgb(0, 0, 60);
+}
+
+.form {
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 5rem;
+    float: center;
+
+}
+
+.navegacao {
+    height: 1250px;
+	padding: 2rem;
+	float: left;
+	background-color: rgb(210, 210, 210);
+}
+
+#submit-form {
+	background-color: rgb(0, 0, 60);
+	color: aliceblue;
+}
+
+#submit-form:hover {
+	cursor: pointer;
+}
+
+picture {
+	display: inline-block;
+}
+.coffee {
+	width: 12rem;
+	float: right;
+}

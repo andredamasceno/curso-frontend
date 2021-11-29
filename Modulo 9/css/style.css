@@ -1,0 +1,105 @@
+header {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Libre Baskerville';
+    background-color: rgb(0, 0, 60);
+    color: white;
+}
+
+div {
+    box-sizing: content-box;
+}
+
+.intro {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+.youtube_div {
+    width: 100%;
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+.coffee {
+    width: 10rem;
+    filter: grayscale(100%);
+    margin-left: 30rem;
+}
+
+.coffee:hover {
+    filter: grayscale(0%);
+    filter: drop-shadow(8px 8px 8px #333);
+}
+
+.andre {
+    filter: grayscale(100%);
+    width: 15rem;
+    border-radius: 50%;
+    margin-left: 10rem;
+}
+
+.andre:hover {
+    filter: grayscale(0%);
+    filter: drop-shadow(8px 8px 8px #333);
+}
+
+h2, h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    margin-left: 74%;
+}
+
+h3 {
+    margin-left: 39%;
+}
+
+footer {
+    text-align: center;
+    display: content-box;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+}
+
+.ebac {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.ebac:hover {
+    color: white;
+    background-color: rgb(0, 0, 60);
+}
+
+@media (max-width: 768px) {
+    body {
+        column-count: 1;
+    }
+
+    h2, h3 {
+        margin-left: 1rem;
+        margin-top: 0.1rem;
+    }
+
+    .coffee {
+        margin: 7rem;
+    }
+
+    .andre {
+        margin: 4.5rem;
+    }
+
+}
