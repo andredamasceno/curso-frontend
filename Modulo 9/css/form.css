@@ -71,10 +71,6 @@ label {
 
 }
 
-.formulario {
-	border-bottom: solid rgb(0, 0, 60);
-}
-
 .form {
     padding-right: 20rem;
     padding-left: 20rem;
@@ -109,5 +105,12 @@ picture {
 		columns: 1;
 	}
 
+	.form {
+		margin: 0;
+		padding: 0;
+	}
 	
+	.coffee1 {
+		margin: 0;
+	}
 }
