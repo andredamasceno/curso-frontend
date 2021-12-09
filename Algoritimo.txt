@@ -1,0 +1,82 @@
+
+
+		Algoritimo da Travessia Segura
+		
+		- Inicio;
+		- Constantes:  a = homem
+			       b = lobo
+			       c = cabra 
+			       d = maco de alfafa
+		- Regra: { a + (b, c, d) = ok
+			 b + d = ok
+			 resto = not ok 
+			 barco = 2*constantes por vez; }
+		- Objetivo: Todas as constantes cruzarem o rio dentro da regra (Ponto X para o Y).
+			 
+		- 1. Travessia (X para Y) a + c;       
+		- 2. Travessia (Y para X) a;	
+		- 3. Travessia (X para Y) a + b;
+		- 4. Travessia (Y para X) a + c;
+		- 5. Travessia (X para Y) a + d;
+		- 6. Travessia (Y para X) a;
+		- 7. Travessia (X para Y) a + c;
+		- Resultado: a + (b, c, d) no ponto Y;
+		- Fim;    
+
+Boa tarde, 
+
+
+
+Segue exercicio:
+
+
+
+		Algoritimo da Travessia Segura
+
+		
+
+		- Inicio;
+
+		- Constantes: a = homem
+
+			    b = lobo
+
+			    c = cabra 
+
+			    d = maco de alfafa
+
+		- Regra: { a + (b, c, d) = ok
+
+			 b + d = ok
+
+			 resto = not ok 
+
+			 barco = 2*constantes por vez; }
+
+		- Objetivo: Todas as constantes do outro lado do rio dentro da regra (Ponto X para o Y).
+
+			 
+
+		- 1. Travessia (X para Y) a + c;    
+
+		- 2. Travessia (Y para X) a;	
+
+		- 3. Travessia (X para Y) a + b;
+
+		- 4. Travessia (Y para X) a + c;
+
+		- 5. Travessia (X para Y) a + d;
+
+		- 6. Travessia (Y para X) a;
+
+		- 7. Travessia (X para Y) a + c;
+
+		- Resultado: a + (b, c, d) no ponto Y;
+
+		- Fim;   
+
+
+
+
+
+https://jsfiddle.net/a875tvgs/
